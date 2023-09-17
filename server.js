@@ -25,7 +25,7 @@ app.get(`api/config/paypal`,(req,res)=>
 )
 //midleware 
 app.use(cors({
-    origin:["http://localhost:3000","https://frontend-2-426d.onrender.com"]
+    origin:["http://localhost:3000","https://mern-commerce-front.onrender.com"]
 }))
 app.use(notFound)
 app.use(errorHandler)
